@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Портфоліо UI/UX дизайнера: досвід роботи, проекти та контакти.">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myportdsgn — Контакти</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=6">
+</head>
+<body class="d-flex flex-column min-vh-100 contacts-page">
+    <div class="folder-context">
+        <header class="folder-tabs">
+            <div class="logo-tab fw-bold">myportdsgn</div>
+            <nav class="navigation-tab">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-item">Головна</a></li>
+                    <li><a href="experience.html" class="nav-item">Досвід</a></li>
+                    <li><a href="projects.html" class="nav-item">Проєкти</a></li>
+                    <li><a href="contacts.html" class="nav-item active">Контакти</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="folder-body">
+            <main class="contacts-interactive-wrapper">
+                <div class="contacts-hover-zone" id="contactZone">
+                    <h1 class="contacts-center-title text-uppercase m-0" id="contactTitle" style="cursor: pointer;">
+                        <span class="arrow-indicator">→</span>КОНТАКТИ<span class="arrow-indicator">←</span>
+                    </h1>
+                    <div class="contacts-cards-container" id="cardsContainer">
+                        <div class="d-flex flex-column align-items-center w-100 gap-4">
+                            <div class="social-icons-grid-clean">
+                                <a href="https://t.me/myportdsgn_tg" target="_blank" class="contact-icon-item" title="Telegram">
+                                    <i class="bi bi-telegram"></i>
+                                </a>
+                                <a href="https://instagram.com/myportdsgn_inst" target="_blank" class="contact-icon-item" title="Instagram">
+                                    <i class="bi bi-instagram"></i>
+                                </a>
+                                <a href="https://x.com/myportdsgn_x" target="_blank" class="contact-icon-item" title="Twitter/X">
+                                    <i class="bi bi-twitter-x"></i>
+                                </a>
+                                <a href="tel:+380000000000" class="contact-icon-item" title="Телефон">
+                                    <i class="bi bi-telephone"></i>
+                                </a>
+                                <a href="mailto:myport@email.com" class="contact-icon-item" title="Email">
+                                    <i class="bi bi-envelope"></i>
+                                </a>
+                                <a href="https://discord.gg/invite" target="_blank" class="contact-icon-item" title="Discord">
+                                    <i class="bi bi-discord"></i>
+                                </a>
+                            </div>
+                            <form class="w-100 px-3" style="max-width: 310px;" autocomplete="on">
+                                <div class="input-group">
+                                    <input type="tel" class="form-control bg-transparent text-white border-secondary text-center" placeholder="Ваш телефон" name="phone" autocomplete="tel" required style="font-size: 14px; min-height: 44px;">
+                                    <button class="btn btn-light" type="submit" style="min-height: 44px; font-weight: 700; font-size: 13px;">Замовити</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <footer class="text-center bg-white w-100">
+            <div class="container">
+                <small class="text-muted">© 2026 myportdsgn. Всі права захищено.</small>
+            </div>
+        </footer>
+    </div>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
